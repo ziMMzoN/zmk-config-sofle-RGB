@@ -79,6 +79,10 @@
 &kp LSHFT  &kp Z   &kp X     &kp C     &kp D   &kp V    &trans       &trans   &kp K     &kp H   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
                    &kp LGUI  &kp LALT  &trans  &kp DEL  &kp SPACE    &kp RET  &kp BSPC  &trans  &trans     &trans
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
     };
 };
